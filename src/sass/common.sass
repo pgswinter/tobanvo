@@ -1,0 +1,81 @@
+@import fw-style.sass
+// 1. Process All og HTML
+*
+	margin: 0
+	padding: 0
+	::-moz-selection
+		background-color: #f6c6c5
+		color: #fff
+	::selection
+		background-color: #f6c6c5
+		color: #fff
+// BODY
+body
+	font-family: map-get($fw-helve,1)
+	font-size: 1rem
+	line-height: 1.5
+//  UL LI
+ul
+	list-style-type: none
+	padding-left: 0
+	float: left
+	margin-bottom: 0
+	&.to-list
+		li
+			display: list-item
+			float: none
+	li
+		float: left
+		a
+			font-size: 14pt
+	&.big-size
+		li
+			a
+				font-size: 20pt
+	&:after
+		display: block
+		content: ''
+		clear:both
+// 2. Process columns
+// Process a
+a
+	display: block
+	color: map-get($fw-dark,1)
+	text-decoration: none
+	&:hover
+		color: #000
+		text-decoration: none
+// Process h
+h1,
+h2,
+h3,
+h4,
+.set-high-ligh
+	font-family: map-get($fw-nueva,3)
+.set-bold
+	font-family: map-get($fw-nueva,2)
+// Process p
+p
+	color: map-get($fw-dark,3)
+	line-height: 1.3
+// Process article
+article
+	h3,
+	h4,
+	.set-high-ligh
+		font-family: map-get($fw-helve,1)
+	h3
+		font-size: 14pt
+		margin-bottom: 0
+	p,
+	h4
+		font-size: 12pt
+		margin-bottom: 0
+input[type="text"],
+input[type="password"],
+textarea,
+select option
+	width: 100%
+	color: map-get($fw-dark,1)
+	border: 1px solid map-get($fw-dark,2)
+	padding: 10px 15px

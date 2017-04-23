@@ -1,0 +1,29 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-gallery
+	position: fixed !important
+	width: 100%
+	height: 100% !important
+	top: 0
+	left: 0
+	z-index: 1
+	.dark-bg
+		background-color: rgba(0,0,0,0.69)
+		width: 100%
+		height: 100%
+		
+	&.maxtaSLD
+		ul
+			height: 100%
+			position: absolute
+			li
+				height: 100%
+				position: relative
+				img
+					width: auto
+					@extend .set-cent-abso
+
+
+

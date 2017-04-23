@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'NuevaStd-Italic';
+  src: url('NuevaStd-Italic.eot');
+  src: url('NuevaStd-Italic.woff2') format('woff2'),
+       url('NuevaStd-Italic.woff') format('woff'),
+       url('NuevaStd-Italic.ttf') format('truetype'),
+       url('NuevaStd-Italic.svg#NuevaStd-Italic') format('svg'),
+       url('NuevaStd-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

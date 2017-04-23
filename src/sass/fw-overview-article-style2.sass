@@ -1,0 +1,50 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-overview-article2
+	@extend .clear-float
+	@extend .titl-helv
+	@extend .set-just
+	@extend .clea-padd
+	@extend .set-all-md-padd
+	border: 1px solid map-get($fw-neut,2)
+	.summ-cont
+		img
+			@extend .set-cirl-img
+			margin-top: 30px
+			margin-bottom: 30px
+		.form-inli
+			@extend .clear-float
+			@extend .set-bord-bott
+			padding-top: 10px
+			padding-bottom: 10px
+			cursor: pointer
+			&:hover
+				background-color: map-get($fw-dark,1)
+				color: map-get($fw-neut,2)
+				padding-left: 15px
+				@extend .trns-efct
+
+			*
+				@extend .clea-padd
+				margin-bottom: 0
+			
+		.foot
+			@extend .clear-float
+			background-color: map-get($fw-dark,1)
+			border: 1px solid map-get($fw-dark,1)
+			.name
+				padding-top: 30px
+				margin-bottom: 0
+			*
+				color: map-get($fw-neut,2)
+			.bord-btn
+				display: block
+				background-color: map-get($fw-neut,2)
+				border: 1px solid map-get($fw-neut,2)
+				@extend .clear-float
+				color: map-get($fw-dark,1)
+				&:hover
+					color: map-get($fw-neut,1)
+					background-color: transparent

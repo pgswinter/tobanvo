@@ -1,0 +1,10 @@
+.fw-tbv-social {
+  position: absolute;
+  right: 0;
+  top: 0; }
+  .fw-tbv-social > * {
+    float: right;
+    text-align: center;
+    text-transform: uppercase; }
+  .fw-tbv-social img {
+    width: 100px; }

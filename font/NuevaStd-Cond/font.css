@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'NuevaStd-Cond';
+  src: url('NuevaStd-Cond.eot');
+  src: url('NuevaStd-Cond.woff2') format('woff2'),
+       url('NuevaStd-Cond.woff') format('woff'),
+       url('NuevaStd-Cond.ttf') format('truetype'),
+       url('NuevaStd-Cond.svg#NuevaStd-Cond') format('svg'),
+       url('NuevaStd-Cond.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

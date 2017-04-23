@@ -1,0 +1,27 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-two-columns
+	@extend .clear-float
+	@extend .set-all-md-padd
+	@extend .titl-helv
+	@extend .set-just
+	@extend .clea-padd
+	padding-bottom: 0
+	@extend .img-wrap
+	.fw-container
+		h2
+			text-transform: uppercase
+		.left
+			@extend .set-all-md-padd
+			border: 15px solid map-get($fw-neut,2)
+		.right
+			@extend .set-top-md-padd
+			*
+				text-align: center
+			.signature
+				text-align: right
+
+
+	

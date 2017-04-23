@@ -1,0 +1,33 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.form-team-container
+	@extend .titl-cont
+	.form-wrap-team
+		@extend .clear-float
+		.fw-overview-article1
+			@extend .clear-float
+			@extend .titl-helv
+			@extend .set-just
+			@extend .clea-padd
+			@extend .set-all-md-padd
+			.summ-cont
+				@extend .img-wrap
+				span
+					&.date
+						@extend .corn-labl
+					@extend .clea-padd
+					@extend .set-abso.corn-top
+				h3
+					@extend .clea-padd
+				.form-inli
+					@extend .clear-float
+					margin-top: 10px
+					*
+						@extend .clea-padd
+					span
+						text-align: right
+					span,
+					label
+						font-family: map-get($fw-helve,3)

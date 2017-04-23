@@ -1,0 +1,49 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-main-nav
+	@extend .clear-float
+	@extend .titl-helv-roma
+	@extend .set-just
+	margin-top: 30px
+	padding-top: 15px
+	padding-bottom: 15px
+	*
+		@extend .clea-padd
+	&.right
+		float: right
+	ul
+		@extend .clea-padd
+		li
+			a
+				font-family: map-get($fw-helve,3)
+				text-align: left
+				text-decoration: none
+				color: #000
+				@extend .set-uppe
+				@extend .trns-efct
+				&:hover
+					color: map-get($fw-neut,2)
+			&.active
+				a
+					color: map-get($fw-neut,2)
+	img
+		@extend .img-wrap
+	.register-btn
+		width: 300px
+		text-align: center !important
+		color: #fff !important
+		text-decoration: none
+		&:hover
+			color: map-get($fw-neut,2) !important
+			text-decoration: none
+		&:checked
+			text-decoration: none
+	&.was-fixed
+		ul
+			li
+				a
+					padding: 0
+					&.register-btn
+						padding: 9px 20px

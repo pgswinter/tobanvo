@@ -1,0 +1,51 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.form-product-container
+	@extend .titl-cont
+	@extend .set-all-md-padd
+	padding-top: 0
+	.form-wrap-product
+		@extend .set-bord
+		@extend .clear-float
+		.fw-products
+			@extend .clear-float
+			@extend .set-all-md-padd
+			@extend .titl-helv
+			@extend .set-just
+			@extend .clea-padd
+			height: 480px
+			&:nth-child(odd)
+				
+			&:nth-child(even)
+				background-color: map-get($fw-dark,2)
+			.summ-cont
+				@extend .img-wrap
+				@extend .set-curs
+				@extend .clear-float
+				img
+					top: 0
+					@extend .set-abso
+					@extend .corn-top
+					@extend .trns-efct
+					z-index: 1
+				.form-inli
+					@extend .clea-padd
+					@extend .clear-float
+					*
+						@extend .clea-padd
+					p
+						@extend .txt-wrap
+						padding-top: 3px
+				a
+					@extend .undr-line-btn
+					float: left
+					width: 0
+				&:hover
+					img
+						top: 100%
+						opacity: 0
+					a
+						width: 100%
+			

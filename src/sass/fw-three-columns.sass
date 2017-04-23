@@ -1,0 +1,32 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.form-three-columns-container
+	@extend .titl-cont
+	background-color: map-get($fw-neut,1)
+	.form-wrap-three-columns
+		@extend .clear-float
+		@extend .set-all-md-padd
+		.fw-three-columns
+			@extend .clear-float
+			@extend .set-all-md-padd
+			@extend .titl-helv
+			@extend .set-just
+			border-right: 1px solid rgba(0,0,0,0.15)
+			cursor: pointer
+			h1,h2,h3,h4,h5,h6,p
+				text-align: center
+				z-index: 1
+			p
+				font-family: map-get($fw-helve,2)
+				border-top: 5px solid map-get($fw-dark,3)
+				width: 70px
+				display: block
+				margin: 0 auto
+			&.last
+				border-right: none
+
+
+
+	

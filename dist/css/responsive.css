@@ -1,0 +1,33 @@
+/**  **/
+/* Color */
+/* Font */
+@media only screen and (min-width: 1025px) {
+  .fw-container,
+  .fw-main-nav {
+    padding: 0 157px; } }
+
+@media only screen and (max-width: 1599px) and (min-width: 1400px) {
+  .fw-container,
+  .fw-main-nav {
+    padding: 0 100px; } }
+
+@media only screen and (max-width: 1399px) {
+  .fw-container,
+  .fw-main-nav {
+    padding: 0 50px; } }
+
+@media only screen and (max-width: 768px) {
+  .fw-container,
+  .fw-main-nav {
+    padding: 0 15px; }
+  .fw-main-nav,
+  .fw-main-nav {
+    padding-left: 15px; } }
+
+@media only screen and (max-width: 639px) {
+  .fw-container,
+  .fw-main-nav {
+    padding: 0 30px; }
+  .fw-main-nav,
+  .fw-main-nav {
+    padding-left: 30px; } }

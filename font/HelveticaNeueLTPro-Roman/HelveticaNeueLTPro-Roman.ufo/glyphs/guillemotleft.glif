@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="1">
+  <advance width="463"/>
+  <unicode hex="00AB"/>
+  <outline>
+    <contour>
+      <point x="202" y="114" type="line"/>
+      <point x="50" y="234" type="line"/>
+      <point x="50" y="322" type="line"/>
+      <point x="202" y="442" type="line"/>
+      <point x="202" y="356" type="line"/>
+      <point x="102" y="278" type="line"/>
+      <point x="202" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="398" y="114" type="line"/>
+      <point x="246" y="234" type="line"/>
+      <point x="246" y="322" type="line"/>
+      <point x="398" y="442" type="line"/>
+      <point x="398" y="356" type="line"/>
+      <point x="298" y="278" type="line"/>
+      <point x="398" y="200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>114</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>422</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

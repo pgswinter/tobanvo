@@ -1,0 +1,80 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-left-right
+	@extend .clear-float
+	@extend .titl-helv
+	@extend .set-just
+	@extend .img-wrap
+	@extend .trns-efct
+	@extend .no-float
+	@extend .set-all-md-padd
+	a
+		float: left
+		margin-top: 15px
+		margin-left: 15px
+		display: block
+		text-transform: capitalize
+	.fw-left
+		width: 280px
+		position: fixed
+		left: 0
+		top: 0
+		background-color: map-get($fw-dark,3)
+		color: #fff
+		height: 100%
+		> a
+			@extend .set-all-md-padd
+		a
+			margin-top: 0
+		ul
+			width: 100%
+			li
+				text-transform: capitalize
+				width: 100%
+				padding-top: 20px
+				padding-bottom: 20px
+				border-bottom: 1px solid rgba(0,0,0,0.15)
+				cursor: pointer
+				a
+					color: rgba(0,0,0,0.69)
+					text-indent: 20px
+				&.active
+					background-color: map-get($fw-dark,1)
+					a
+						color: map-get($fw-neut,2)
+						text-indent: 20px
+	.fw-right
+		margin-left: 280px
+		.sign-out-btn,
+		.user-check
+			position: absolute
+			top: 1em
+			z-index: 1
+		.sign-out-btn
+			right: 1em
+		.user-check
+			right: 11em
+		article
+			@extend .clear-float
+			margin-bottom: 50px
+			.form-inli
+				@extend .clear-float
+			input[type="submit"],
+			input[type="button"]
+				float: left
+				display: block
+		a
+			margin-top: 0
+	input[type="submit"],
+	input[type="button"]
+		@extend .bord-btn
+		@extend .clear-float
+		margin-left: 15px
+		margin-top: 15px
+		float: left
+		&.clr-mrgn
+			margin-left: 0
+			margin-top: 0
+			margin-bottom: 15px

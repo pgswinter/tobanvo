@@ -1,0 +1,53 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-relative-wrap
+	@extend .titl-helv
+	border-left: 1px solid map-get($fw-dark,2)
+	.fw-relative-article
+		@extend .clear-float
+		@extend .set-all-md-padd
+		@extend .set-just
+		@extend .img-wrap
+		@extend .trns-efct
+		float: right
+		a
+			@extend .trns-efct	
+		img
+			margin-bottom: 10px
+		.form-inli
+			@extend .clea-padd
+			height: 50px
+			label,
+			p
+				text-align: left
+			*
+				@extend .clea-padd
+				margin-bottom: 0
+			&.first
+				*
+					padding-left: 0
+				label,
+				p
+					text-align: left
+			&.last
+				border-right: none
+				label,
+				p
+					
+			label
+				color: map-get($fw-neut,2)
+				font-family: map-get($fw-helve,2)
+			p
+				color: map-get($fw-dark,3)
+				font-family: map-get($fw-helve,2)
+		&:hover
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6,
+			a
+				color: map-get($fw-neut,2)

@@ -1,0 +1,68 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-detail-article
+	@extend .clear-float
+	@extend .titl-helv
+	@extend .set-just
+	@extend .img-wrap
+	.form-inli
+		@extend .set-bord-righ
+		@extend .clea-padd
+		height: 50px
+		&.end
+			border-right: none
+		*
+			@extend .clea-padd
+			margin-bottom: 0
+			padding-left: 15px
+			i
+				padding-left: 0
+		p
+			color: map-get($fw-dark,1)
+			font-family: map-get($fw-helve,3)
+			@extend .trns-efct
+		a
+			padding-left: 0
+			&:hover
+				p
+					color: map-get($fw-neut,2)
+		label
+			color: map-get($fw-neut,2)
+			font-family: map-get($fw-helve,2)
+		input
+			@extend .rnd-btn
+		
+	img
+		margin-bottom: 72px
+		margin-top: 36px
+		&.prst-img
+			margin-top: 0
+	input[type="submit"]
+
+		@extend .rnd-btn
+		float: right
+	&.member-team
+		margin-bottom: 50px
+		.form-inli
+			border-right: none
+			@extend .clear-float
+			> div
+				@extend .clear-float
+				a
+					@extend .undr-line-btn
+			*
+				padding-left: 0
+			.no-clear
+				height: auto
+				padding-left: 15px
+				margin-left: 30px
+				> div
+					padding: 15px 0 15px 15px
+					border-bottom: 1px solid map-get($fw-dark,2)
+
+
+
+
+	

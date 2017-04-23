@@ -1,0 +1,447 @@
+// Copyright 2016 by Robert NGUYEN. Freedom Walking layout style
+// MAIN TEMPLATE
+@import fw-style
+// Container
+.fw-container
+	@extend .clear-float
+// Header
+.fw-head
+	.top-head
+		ul
+			li
+// Font
+.font-helve
+	font-family: map-get($fw-helve,3)
+// Article
+.fw-arti
+	.titl
+	.arti-cont
+// Three item
+.fw-thre-item
+	.titl
+	.icon-tag
+// title style 01
+.fw-titl-01
+	text-transform: capitalize
+// -----------------------------------------------------------------------------------//
+
+// SUB TEMPLATE
+// No float
+.no-float
+	float: none
+// Clear Float
+.clear
+	clear: both
+.clear-float
+	&:after
+		display: block
+		content: ''
+		clear: both
+	&:before
+		display: block
+		content: ''
+		clear: both
+// Set Right
+.set-righ
+	float: right
+// Set Right
+.set-left
+	float: left
+// Clear Padding
+.clea-padd
+	padding-left: 0
+	padding-right: 0
+// Set background
+.set-bg-dark
+	background-color: map-get($fw-dark,3)
+// Img wrap
+.img-wrap
+	position: relative
+	img
+		width: 100%
+// Set Center
+.set-cent-img
+	position: relative
+	img
+		text-align: center
+.set-cent-abso
+	position: absolute
+	display: block
+	text-align: center
+	margin-left: auto
+	margin-right: auto
+	left: 0
+	right: 0
+	top: 50%
+	transform: translateY(-50%)
+.set-cent-vert
+	position: absolute
+	top: 50%
+	transform: translateY(-50%)
+// Set shadown background
+.set-shdw-bg
+	&:after
+		display: block
+		content: ''
+		position: absolute
+		width: 100%
+		height: 100%
+		background-color: rgba(0,0,0,0.5)
+		top: 0
+		left: 0
+// Set padding
+.set-padd-top
+	padding-top: 50px
+	line-height: 1
+.set-bala-md-vert
+	padding-top: 30px
+	padding-bottom: 30px
+	line-height: 1
+.set-bala-vert
+	padding-top: 50px
+	padding-bottom: 50px
+	line-height: 1
+.set-all-md-padd
+	padding: 50px 30px
+.set-vert-md-padd
+	padding-top: 50px
+	padding-bottom: 50px
+	padding-left: 0
+	padding-right: 0
+.clr-horz
+	padding-left: 0
+	padding-right: 0
+.set-top-md-padd
+	padding-top: 50px
+	padding-bottom: 0
+	padding-left: 0
+	padding-right: 0
+.set-horz-md-padd
+	padding-top: 0
+	padding-bottom: 0
+	padding-left: 30px
+	padding-right: 30px
+// Set margin
+.set-mg-vert
+	margin-top: 15px
+	margin-bottom: 15px
+// Set text
+.move-left15
+	padding-left: 15px
+.set-uppe
+	text-transform: uppercase
+	&.fu
+		&::first-letter
+			font-size: 200%
+			line-height: 1
+.set-lett-spac
+	letter-spacing: 2px
+.set-cent-txt
+	text-align: center
+.set-just
+	p
+		text-align: justify
+.txt-wrap
+	padding-bottom: 20px
+	margin-bottom: 0
+	font-size: 11pt
+// set hidden
+.no-display
+	display: none !important
+.invisible
+	visibility: hidden !important
+// set icon
+.icon-wrap
+	font-size: 20pt
+	text-align: right
+
+// Set letter spacing
+// Set position
+.set-abso
+	position: absolute
+	&.corn-bott
+		right: 0
+		bottom: 0
+	&.corn-top
+		top: 0
+		left: 0
+.set-rela
+	position: relative
+// Set cursor
+.set-curs
+	cursor: pointer
+// 1. Form Style
+.bord-styl
+	height: 150px
+	width: 150px
+	border: 10px solid map-get($fw-neut,1)
+	position: relative
+	h3
+		margin-left: auto
+		margin-right: auto
+		left: 0
+		right: 0
+		width: 100px
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+.columns
+	-webkit-column-count: 3	
+	-webkit-column-gap: 15px
+	-webkit-column-fill: auto
+	-moz-column-count: 3
+	-moz-column-gap: 15px
+	-moz-column-fill: balance
+	column-count: 3
+	column-gap: 15px
+	column-fill: auto
+	> *
+		-webkit-column-break-inside: avoid
+		page-break-inside: avoid
+		break-inside: avoid
+		width: 100%
+// 2. Set border
+.set-bord-top
+	border-top: 1px solid map-get($fw-dark,2)
+.set-bord-bott
+	border-bottom: 1px solid map-get($fw-dark,2)
+.set-bord-righ
+	border-right: 1px solid map-get($fw-dark,2)
+.set-bord-left
+	border-left: 1px solid map-get($fw-dark,2)
+.set-bord
+	border: 1px solid map-get($fw-dark,2)
+.no-bord
+	border: none
+// 3. Set IMG
+.img-wrap-max		
+	img
+		width: 100%
+		text-align: center
+.img-wrap-lg
+	img
+		width: 91.67%
+		text-align: center
+.img-wrap-smlg
+	img
+		width: 83.33%
+		text-align: center
+.img-wrap-md
+	img
+		width: 75%
+		text-align: center
+.img-wrap-smmd
+	img
+		width: 66.67%
+		text-align: center
+.img-wrap-sm
+	img
+		width: 58.33%
+		text-align: center
+.img-wrap-smsm
+	img
+		width: 50%
+		text-align: center
+.img-wrap-xs
+	img
+		width: 41.67%
+		text-align: center
+.img-wrap-smxs
+	img
+		width: 33.33%
+		text-align: center
+.img-wrap-tiny
+	img
+		width: 25%
+		text-align: center
+.img-wrap-smti
+	img
+		width: 16.67%
+		text-align: center
+.set-cirl-img
+	width: 77px
+	height: 77px
+	overflow: hidden
+	border-radius: 50%
+	display: block
+// 4. Process about layout
+// 4.1 Process vertical distance
+// 4.1.1 Inside
+.vert-sm
+	padding-top: 50px
+	padding-bottom: 50px
+.vert-md
+	padding-top: 100px
+	padding-bottom: 100px
+// 5. Set Button
+// 5.1 Default
+.defa-btn
+	border: 1px solid #000
+	padding: 9px 20px
+	font-family: map-get($fw-helve,2)
+	cursor: pointer
+	&:hover
+		text-decoration: none
+.rnd-btn
+	@extend .defa-btn
+	@extend .trns-efct
+	border-radius: 30px
+	text-align: center
+	width: 150px
+	display: block
+	background-color: map-get($fw-neut,2)
+	color: #fff
+	border-color: map-get($fw-neut,2)
+	&:hover
+		background-color: transparent
+		color: map-get($fw-neut,2)
+.undr-line-btn
+	@extend .defa-btn
+	@extend .trns-efct
+	border: none
+	color: map-get($fw-dark,3)
+	padding-left: 0
+	width: 150px
+	border-top: 1px solid map-get($fw-dark,2)
+	&:hover
+		width: auto
+		padding-left: 20px
+		border-top: 1px solid map-get($fw-neut,2)
+		background-color: map-get($fw-dark,1)
+		color: map-get($fw-neut,2)
+.bord-btn
+	@extend .defa-btn
+	@extend .trns-efct
+	width: 150px
+	border: 1px solid map-get($fw-dark,2)
+	text-align: center
+	padding-left: 0
+	padding-right: 0
+	&:hover
+		border-top: 1px solid map-get($fw-neut,2)
+		background-color: map-get($fw-dark,1)
+		color: map-get($fw-neut,2)
+.close-btn
+	// height: 1px
+	background-color: transparent
+	height: 36px
+	width: 36px
+	position: absolute
+	top: 10px
+	right: 10px
+	cursor: pointer
+	transition: all 300ms ease
+	-webkit-transition: all 300ms ease
+	-moz-transition: all 300ms ease
+	-ms-transition: all 300ms ease
+	&:before
+		position: absolute
+		display: block
+		content: ' '
+		height: 1px
+		width: 100%
+		top: 18px
+		background-color: #fff
+		-ms-transform: rotate(45deg)
+		-webkit-transform: rotate(45deg)
+		transform: rotate(45deg)
+	&:after
+		position: absolute
+		display: block
+		content: ' '
+		height: 1px
+		width: 100%
+		bottom: 17px
+		background-color: #fff
+		-ms-transform: rotate(-45deg)
+		-webkit-transform: rotate(-45deg)
+		transform: rotate(-45deg)
+	&:hover
+		-ms-transform: rotate(180deg)
+		-webkit-transform: rotate(180deg)
+		transform: rotate(180deg)
+.on-top
+	@extend .defa-btn
+	position: fixed
+	bottom: 1em
+	right: 1em
+	border: 2px solid map-get($fw-neut,2)
+	color: map-get($fw-neut,2)
+	i
+		color: map-get($fw-neut,2)
+// -----------------------------------------------------------------------------------//
+// 6. Set Label
+.corn-labl
+	width: 150px
+	display: block
+	text-align: center
+	background-color: map-get($fw-neut,2)
+	color: #fff
+	font-family: map-get($fw-helve,2)
+	padding: 7px 0
+.fw-caro-arti
+	width: 150px
+	height: 150px
+// 7. Set Transition
+.trns-efct
+	transition: all 300ms ease-out 0.1s
+	-webkit-transition: all 300ms ease-out 0.1s
+	-moz-transition: all 300ms ease-out 0.1s
+	-ms-transition: all 300ms ease-out 0.1s
+	-o-transition: all 300ms ease-out 0.1s
+
+// -----------------------------------------------------------------------------------//
+// *** Title style font Helvetica *** //
+.titl-helv
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6
+		font-family: map-get($fw-helve,3)
+		margin-top: 0
+		margin-bottom: 50px
+		color: map-get($fw-neut,2)
+.titl-helv-roma
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6
+		font-family: map-get($fw-helve,2)
+		margin-top: 0
+		margin-bottom: 50px
+		color: map-get($fw-neut,2)
+.titl-cont
+	@extend .titl-helv
+	h2
+		@extend .set-all-md-padd
+		margin-bottom: 0
+		text-transform: uppercase
+		text-align: center
+// position
+.was-fixed
+	position: fixed
+	z-index: 2
+	top: 0
+	margin-top: 0
+	background-color: rgba(255,255,255,0.88)
+	@extend .trns-efct
+	&.logo
+		width: 100%
+	&.right
+		right: 0
+		background-color: transparent
+		ul
+			padding-top: 30px
+	a
+		width: 110px
+		padding: 5px
+		img
+			width: 100%
+
+
+
+	

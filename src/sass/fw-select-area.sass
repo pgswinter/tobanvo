@@ -1,0 +1,56 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-select-area
+	@extend .clear-float
+	@extend .titl-helv
+	@extend .set-just
+	@extend .set-bala-vert
+	margin: 0 auto
+	padding-top: 15px
+	padding-bottom: 15px
+	background: url(../../photos/pexels-photo.jpg) 0 50% no-repeat
+	background-size: 100%
+	.wrapper
+		width: 945px
+		@extend .clear-float
+		margin: 0 auto
+		h2
+			text-align: center
+			text-transform: uppercase
+			@extend .set-padd-top
+			color: map-get($fw-hot,2)
+		.area-wrap
+			width: 315px
+			float: left
+			@extend .set-all-md-padd
+			
+			
+			h3
+				color: #000
+			img
+				width: 70%
+				display: block
+				margin: 0 auto
+			i
+				font-size: 1em
+				color: map-get($fw-hot,2)
+			article
+				padding: 15px
+				background-color: map-get($fw-neut,1)
+				border: 1px solid map-get($fw-dark,2)
+				h3
+					font-weight: bold
+					font-size: 2em
+				a
+					@extend .undr-line-btn
+					width: 100%
+					font-style: italic
+					border-top: none
+					border-bottom: 1px dashed #000
+				p
+					&.postscript-quote
+						font-style: italic
+
+	

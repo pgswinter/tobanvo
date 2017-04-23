@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'NuevaStd-Bold';
+  src: url('NuevaStd-Bold.eot');
+  src: url('NuevaStd-Bold.woff2') format('woff2'),
+       url('NuevaStd-Bold.woff') format('woff'),
+       url('NuevaStd-Bold.ttf') format('truetype'),
+       url('NuevaStd-Bold.svg#NuevaStd-Bold') format('svg'),
+       url('NuevaStd-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

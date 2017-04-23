@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Overview Page - Quang Nhat Shop</title>
+	<link rel="shortcut icon" href="../images/logo.png">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<script src="../js/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="../font/HelveticaNeueLTPro-Roman/fonts.css">
+	<link rel="stylesheet" href="../font/HelveticaThn/fonts.css">
+	<link rel="stylesheet" href="../font/HelveticaMed/fonts.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/animation.css">
+	<link rel="stylesheet" href="../css/tuananh-responsive.css">
+	<link rel="stylesheet" href="../css/subject.css">
+</head>
+<body class="shorter-screen">
+	<div class="qn-wrapper two-rows ecommercial-one">
+		<div class="qn-left">
+			<div class="logo">
+				<div class="toggle-menu-button-closed hide">+</div>
+				<div class="toggle-menu-button-open">+</div>
+				<a href="../index.html"></a>
+			</div>
+			
+			<ul class="main-menu">
+				<li class="bigandbold-acitve">FOR MEN</li>
+				<li>
+					<a class="category-menu mom collection" href="">Clothes</a>
+					<ul>
+						<li>
+							<a class="top-hautecouturefall2015 bigandbold-acitve" href="">Shirts</a>
+							<ul>
+								<li class="active-bold">A black formal shirt</li>
+							</ul>
+						</li>
+						<li><a class="top-fall2015" href="">Jeans</a></li>
+						<li><a class="top-spring2015" href="">Polo</a></li>
+						<li><a class="top-fall2014" href="">Pants</a></li>
+					</ul>
+				</li>
+				<li><a class="category-menu mom" href="../allinone/index.html">The world of Quang Nhat</a></li>
+				<li><a class="category-menu mom" href="../contact/index.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="qn-right">
+			<div class="detail-wrapper">
+				<h2>shopping basket</h2>
+				<table cellpadding="0" cellspacing="0" class="table">
+					<thead>
+						<tr>
+							<th class="prod">Product</th>
+							<th class="desc">Description</th>
+							<th class="color">Colour</th>
+							<th class="size">Size</th>
+							<th class="quant">Quantity</th>
+							<th class="price">Amount</th>
+							<th class="delete">Delete</th>
+						</tr>
+					</thead>
+					<tbody>						
+						<tr class="">
+							<td class="hidden">
+								<a href="#">531894468</a>
+							</td>
+					     	<td class="prod">
+					     		<a href="../detail/index.html">
+									<img src="../images/overview/01.jpg" alt="" width="100" height="128">
+								</a>
+							</td>
+							<td class="desc">
+								<a href="../detail/index.html">
+									<span>A black formal shirt</span>
+								</a>
+							</td>  
+					    	
+							<td class="color">
+								Navy blue
+							</td>
+							
+							<td class="size">
+								<span>42</span>
+							</td>
+							<td class="quant">										
+								<span class="num">
+									1
+			   					</span>
+								<span>
+									<a href="" class="addUnit squareButton">+</a>
+									<a href="" class="decreaseUnit squareButton">-</a>
+								</span>
+							</td>
+							<td class="price">
+								<span>
+									$ 49.90
+								</span>
+							</td>
+							<td class="delete">
+								<a href="" class="deleted"></a>
+							</td>								
+						</tr>
+					</tbody>			
+					<tfoot>
+						<tr class="labelName">
+							<td colspan="2" rowspan="4" class="alignLeft">
+								
+							</td>
+							<td colspan="3">Total products:</td>
+							<td class="amount">
+								<span id="totalProductsCalc">
+									$ 49.90
+								</span>
+							</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr class="labelValue">
+							<td colspan="3">Estimated shipping costs :</td>
+							<td class="amount">
+								<span id="gastosEnvioCalc">
+									$ 0.00
+								</span>
+							</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr class="total">
+							<td colspan="3">Total</td>
+							<td class="amount">
+								<span id="totalOrderCalc">
+									$ 49.90
+								</span>
+							</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr class="vat padB20">
+							<td colspan="4">
+								<em>* VAT included</em>
+							</td>					
+							<td>&nbsp;</td>
+						</tr>
+					</tfoot>
+				</table>
+				<div class="wrapper-button">
+					<a href="" class="continue-shoping normalButton white">continue shopping</a>
+					<a href="../secondpage/" class="continue normalButton black">continue</a>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- end detail-wrapper -->
+		<div class="paying">
+			
+		</div>
+		<!-- end paying -->
+	</div>
+	<footer>
+		<div class="fl">
+			<p>Copyright © 2015 Quang Nhat. All right reserved.</p>
+		</div>
+		<div class="fr">
+			<p>Follow us via <a href="http://www.facebook.com/qtqnhat">Facebook</a>.</p>
+		</div>
+		<div class="clear"></div>
+	</footer>
+	<div class="black-bg"></div>
+	<div class="closed"></div>
+	<script src="../js/tuananh.js"></script>
+	<script src="../js/tuananh-gallery.js"></script>
+	<script src="../js/jquery.lazyload.min.js"></script>
+	<script>
+		$(function() {          
+		    $("img.lazy").lazyload({
+		        effect : "fadeIn"
+		    });
+		});  
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.form-client-container
+	@extend .clear-float
+	@extend .titl-cont
+	background-color: map-get($fw-neut,1)
+	.form-wrap-client
+		@extend .clear-float
+		.fw-client
+			@extend .clear-float
+			@extend .titl-helv
+			@extend .set-just
+			@extend .clea-padd
+			@extend .set-all-md-padd
+			.summ-cont
+				text-align: center
+				img
+					@extend .set-cirl-img
+					margin: 0 auto
+				h1,h2,h3,h4,h5,h6
+					margin-bottom: 15px
+					margin-top: 15px
+				p
+					@extend .set-just
+					padding: 0 50px
+					width: 100%
+					text-align: center
+					margin-top: 0
+				.bord-btn
+					margin: 0 auto
+		.next-ctrl,
+		.prev-ctrl
+			color: map-get($fw-dark,1)
+			border: 2px solid map-get($fw-dark,1)

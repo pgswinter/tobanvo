@@ -1,0 +1,35 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-top-nav
+	@extend .clear-float
+	@extend .titl-helv
+	@extend .set-just
+	@extend .set-bord-bott
+	padding-top: 15px
+	padding-bottom: 15px
+	*
+		@extend .clea-padd
+	.right
+		float: right
+	.soci-list
+		ul
+			li
+				float: right
+				margin-left: 10px
+				a
+					width: 30px
+					height: 30px
+					@extend .img-wrap
+	ul
+		@extend .clea-padd
+		li
+			a
+				font-size: 12pt
+				font-family: map-get($fw-helve,2)
+	img
+		@extend .img-wrap
+	.admn-list
+		a
+			@extend .rnd-btn
